@@ -32,12 +32,12 @@ const mapWord = (word) => {
   //math for changing math so that numbers can be changed into letters
   var encodedArray = [];
   for (i = 0; i < mathArray.length; i++) {
-    if (mathArray[i] > 75) {
-      num = mathArray[i] - 75;
-    } else if (mathArray[i] > 50 && mathArray[i] < 75) {
-      num = mathArray[i] - 50;
-    } else if (mathArray[i] > 25 && mathArray[i] < 50) {
-      num = mathArray[i] - 25;
+    if (mathArray[i] > 78) {
+      num = mathArray[i] - 78;
+    } else if (mathArray[i] > 52 && mathArray[i] < 78) {
+      num = mathArray[i] - 52;
+    } else if (mathArray[i] > 26 && mathArray[i] < 52) {
+      num = mathArray[i] - 26;
     } else {
       num = mathArray[i];
     }
